@@ -58,7 +58,7 @@ header,
 
 #mainSlider .carousel-inner,
 #mainSlider .carousel-iten {
-    height: 90vh;
+    max-height: 90vh;
 }
 
 #mainSlider .carousel-caption {
