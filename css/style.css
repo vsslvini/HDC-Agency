@@ -53,7 +53,7 @@ header,
 
 .container-fluid {
     padding: 0;
-    
+
 }
 
 #mainSlider .carousel-inner,
@@ -115,13 +115,26 @@ header,
     text-align: center;
 }
 
-.main-title::after {
+/* .main-title::after {
     content: "";
     border-top: 2px solid #444;
     width: 15%;
-    position: absolute;
+    position: relative;
     bottom: -65px;
     left: 42.5%;
+} */
+
+hr {
+    width: 20%;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    border: 0;
+    height: 1.5px;
+    border-radius: 8px;
+    background-image: radial-gradient(circle, black, transparent);
+    opacity: 1;
+    
 }
 
 .about-title {
@@ -131,16 +144,42 @@ header,
     font-weight: bold;
 }
 
-#about-list{
+#about-list {
     list-style: none;
     padding-left: 0;
 }
 
-#about-list li{
+#about-list li {
     line-height: 30px;
 }
 
-#about-list i{
+#about-list i {
     color: #65DAF9;
     margin-right: 15px;
+}
+
+/* Serviços */
+
+.services-box {
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+.services-box i, .services-box h4 {
+    transition: .5s;
+}
+
+.services-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.services-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services-box:hover > i, .services-box:hover > h4 {
+    color: #65DAF9;
 }
