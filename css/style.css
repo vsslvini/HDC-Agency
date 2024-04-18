@@ -53,6 +53,7 @@ header,
 
 .container-fluid {
     padding: 0;
+    
 }
 
 #mainSlider .carousel-inner,
@@ -64,19 +65,19 @@ header,
     top: 30%;
 }
 
-#mainSlider .carousel-caption h2{
+#mainSlider .carousel-caption h2 {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-#mainSlider .carousel-caption p{
+#mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
     color: white;
 }
 
-.main-btn{
+.main-btn {
     text-decoration: none;
     background-color: #65DAF9;
     color: white;
@@ -89,7 +90,7 @@ header,
     transition: .5s;
 }
 
-.main-btn:hover{
+.main-btn:hover {
     text-decoration: none;
     color: white;
     background-color: transparent;
@@ -98,4 +99,48 @@ header,
 
 .carousel-indicators .active {
     background-color: #65DAF9;
+}
+
+/* Sobre o sistema */
+
+#about-area {
+    background-color: #F9F9F9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #444;
+    width: 15%;
+    position: absolute;
+    bottom: -65px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color: #65DAF9;
+    margin-right: 15px;
 }
