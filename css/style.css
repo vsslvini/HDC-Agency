@@ -247,17 +247,48 @@ hr {
     margin-bottom: 20px;
 }
 
-#apply-btn{
+#apply-btn {
     display: block;
     height: auto;
     width: 180px;
     margin: auto;
     margin-top: auto;
     background-color: transparent;
-    border-color:#FFF;
+    border-color: #FFF;
 }
 
-#apply-btn:hover{
+#apply-btn:hover {
     border-color: #65DAF9;
     background-color: #65DAF9;
+}
+
+/* Portifólio */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portifolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portifolio-area .filter-btn.active,
+#portifolio-area .filter-btn:hover {
+    color: #FFF;   
+    background-color: #65DAF9;
+    border-color: #65DAF9;
 }
